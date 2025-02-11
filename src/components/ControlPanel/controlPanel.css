@@ -20,11 +20,18 @@
   color: white;
 }
 .control_btn:hover {
-  border-color: #818181;
+  border-color: #666666;
 }
 .btn_holder {
+  padding-top: 30px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 15px;
+  gap: 10px;
+  max-width: 300px;
+}
+.central_row {
+  display: flex;
+  gap: 10px;
 }
