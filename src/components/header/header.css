@@ -1,5 +1,6 @@
 .header {
   background-color: black;
+  padding: 0 10px;
 }
 .header_container {
   max-width: 1600px;

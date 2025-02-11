@@ -33,14 +33,17 @@ function ControlPanel() {
         case 0:
           setMenuItems(deviceMenu);
           setIsStartMenu(false);
+          setActiveIndex(0);
           break;
         case 1:
           setMenuItems(zoneMenu);
           setIsStartMenu(false);
+          setActiveIndex(0);
           break;
         case 2:
           setMenuItems(groupMenu);
           setIsStartMenu(false);
+          setActiveIndex(0);
           break;
         default:
           console.log("Невідоме значення");
@@ -51,6 +54,7 @@ function ControlPanel() {
   const handleLeft = () => {
     setMenuItems(startMenu);
     setIsStartMenu(true);
+    setActiveIndex(0);
   };
 
   return (
