@@ -1,0 +1,30 @@
+.panelHolder {
+  padding: 20px 0 0 50px;
+}
+.display_list {
+  padding: 0;
+  border: 4px solid rgb(58, 58, 58);
+  max-width: 300px;
+  background-color: rgb(212, 212, 212);
+}
+.list_item {
+  list-style: none;
+  color: black;
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-left: 20px;
+}
+.active {
+  background: black;
+  color: white;
+}
+.control_btn:hover {
+  border-color: #818181;
+}
+.btn_holder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
