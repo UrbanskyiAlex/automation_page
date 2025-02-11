@@ -19,6 +19,9 @@
   background: black;
   color: white;
 }
+.control_btn {
+  font-weight: 700;
+}
 .control_btn:hover {
   border-color: #666666;
 }
